@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #006400; /* Dark green color */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+}
+
+nav {
+    background: #FFC0CB; /* Dark green color */;
+    color: #0000FF;
+    text-align: center;
+    padding: 2px 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-top: 10px; /* Adjusted margin to account for fixed header */
+    background: #f4f4f4;
+}
+
+section#home {
+    text-align: center;
+}
+
+footer {
+    background: #006400; /* Dark green color */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    margin: 2px;
+    width: calc(33.333% - 2px);
+}
+
+.contact-info {
+    padding-bottom: 20px; /* Ensure there is enough space above the footer */
+}
